@@ -14,8 +14,8 @@ liczby_calkowite_imiona = [1,5,7,9,12,15,19,24,55,100,"Wojtek", "Stefan", "Stach
 print(type(liczby_calkowite_imiona))
 
 
-print(liczby_calkowite_imiona)
-
-print(type(liczby_calkowite_imiona))
-
-print(liczby_calkowite,imiona)
+# print(liczby_calkowite_imiona)
+#
+# print(type(liczby_calkowite_imiona))
+#
+# print(liczby_calkowite,imiona)
