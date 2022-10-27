@@ -1,4 +1,4 @@
-czy_znasz_python=False
+czy_znasz_python=False  # ctrl-alt-l porządkuje kod robi spacje
 if czy_znasz_python:  # ":" robi wcięcie 4 spacje
     print("Brawo!")
 else:
