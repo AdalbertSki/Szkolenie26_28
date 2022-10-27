@@ -20,7 +20,7 @@ else:
 
 print(f"zapłacisz {zarobki * podatek} zł")
 
-zarobki = int(input("Proszę, wprowadź swój dochód: "))
+zarobki = int(input("Proszę, wprowadź swój dochód: ")) #zmiana na int do wprowadzenia cyfr
 # < > <= >= != ==
 
 if zarobki < 10000:
@@ -33,3 +33,4 @@ else:
     podatek = 0.40
 
 print(f"zapłacisz {zarobki * podatek} zł")
+
