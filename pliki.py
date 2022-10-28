@@ -16,10 +16,13 @@
 #     for i in range(5):
 #         print(i + 1 * 2)
 
-with open("baza.txt", encoding='utf-8') as p:
-    for linia in p:
-        print(linia.strip())
+lista = ["Tomek", "Michał", "Asia"]
 
+# with open("baza.txt", encoding='utf-8') as p:
+#     for linia in p:
+#         print(linia.strip())
+#
 with open("baza.txt", "a", encoding="utf-8") as p:
-    p.write("Witaj w świecie Pythona 5 !\n")
-
+    # p.write("Witaj w świecie Pythona 5 !\n")
+    for i in lista:
+        p.write(str(i) + "\n")
