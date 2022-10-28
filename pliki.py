@@ -26,3 +26,8 @@ with open("baza.txt", "a", encoding="utf-8") as p:
     # p.write("Witaj w świecie Pythona 5 !\n")
     for i in lista:
         p.write(str(i) + "\n")
+
+with open(r"C:\bocian\test\baza.txt", encoding='utf-8') as p:
+    for linia in p:
+        wyniki.append(linia.strip())
+
