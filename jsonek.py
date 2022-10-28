@@ -13,8 +13,21 @@ person_dict = json.loads(person)
 #     data = json.load(f)
 # print(data)
 
+dict = {'name': 'Bob',
+'age': 12,
+'children': None
+}
+dict_json = json.dumps(dict)
+print(dict_json)
 
+with open('person2.json', 'w') as json_f:
+    json.dump(dict, json_f, indent=4)
 
+with open('person.txt', 'w') as json_f:
+    json.dump(dict, json_f)
+
+with open('person2.json', 'w') as json_f:
+    json.dump(dict, json_f, indent=4, sort_keys=True)
 
 
 
