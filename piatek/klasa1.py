@@ -70,3 +70,6 @@ class Dom3:
         wybor = int(input("Podaj ilość okien "))
         self.ilosc_okien = wybor
         print("Ilość okien wynosi: ", self.ilosc_okien)
+
+     def __farba(self):
+    print("Skończyła się farba, jadę do sklepu..")

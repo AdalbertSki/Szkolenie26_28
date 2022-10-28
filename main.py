@@ -15,7 +15,7 @@ from piatek import klasa1 as k1
 # print(dom1.metraz)
 # dom1.okresl_metraz()
 # print(dom1.metraz)
-#dom1.okresl_kolor()
+# dom1.okresl_kolor()
 
 # dom2 = k1.Dom()
 # print(dom2)
@@ -28,4 +28,10 @@ from piatek import klasa1 as k1
 # print(dom3.kolor)
 # dom3.zmien_okna()
 # print(dom3.ilosc_okien)
+
+dom4 = k1.Dom3(100, "zielony", 4)
+dom4.zmien_metraz()
+
+dom5 = k1Dom4(100, "kolorowy", 5)
+dom5.zmien_kolor()
 
