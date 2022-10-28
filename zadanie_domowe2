@@ -1,0 +1,19 @@
+napis = "Dawno, Dawno temu za siódmą górą mieszkała Królewna Śnieżka"
+print("Ile jest liter a: ", napis.count("a"))
+print("Ile jest liter D: ", napis.count("D"))
+print("Ile jest liter ó: ", napis.count("ó"))
+
+zdanie = "Ala MA maleGo kota FelicjAna, z którym luBi spędzać CzAs"
+duzy = 0
+maly = 0
+
+for z in zdanie:
+   if z == "a":
+       maly +=1
+   elif z == "A":
+       duzy +=1
+
+print("Moje zdanie wzór:", zdanie)
+
+print("Liczba - a - w tekście:", maly)
+print("Liczba - A - w tekście:", duzy)
